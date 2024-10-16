@@ -1,0 +1,47 @@
+
+Anura3D: Numerical modelling and simulation of large deformationsand soilО©╫waterО©╫structure interaction using the material point method (MPM)
+Kernel name       : /mnt/data/the_deep/Geotech_Research/Anura3D_Moore/build/ifort_F091FE632B36ABA7/app/Anura3D
+Kernel version    : 2022.1.0.10029                                                                                                             лллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
+Last update date  : 2023-06-29 15:32:28 +0200 (do, 29 jun 2023)                                                                                лллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
+Last compiled date: 2023-06-30 09:29:57.817                                                                                                    лллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
+
+Project name: column_collapse_tri_MP_CFL_05.A3D/column_collapse_tri_MP_CFL_05
+Reading CPS file: column_collapse_tri_MP_CFL_05.A3D/column_collapse_tri_MP_CFL_05.CPS_003
+Reading... ### Anura3D_2021 ###
+[WARNING] : (time step:      1) CPS file: Default value of $$GRAVITY_ACCELERATION changed.
+[WARNING] : (time step:      1) Unknown flag in CPS file: $$UPDATE_PERMEABILITY_DARCY_ERGUN
+Reading GOM file (Materials): column_collapse_tri_MP_CFL_05.A3D/column_collapse_tri_MP_CFL_05.GOM
+Reading... ### Anura3D_2023 ###
+Loading constitutive model... mohr_coulomb
+Loading constitutive model... linear_elasticity
+Reading GOM file (Geometry): column_collapse_tri_MP_CFL_05.A3D/column_collapse_tri_MP_CFL_05.GOM
+Reading... ### Anura3D_2023 ###
+Calculation of load step      3
+Calculation of load step      4
+Calculation of load step      5
+Calculation of load step      6
+Calculation of load step      7
+Calculation of load step      8
+Calculation of load step      9
+Calculation of load step     10
+Calculation of load step     11
+Calculation of load step     12
+Calculation of load step     13
+Calculation of load step     14
+Calculation of load step     15
+Calculation of load step     16
+Calculation of load step     17
+Calculation of load step     18
+Calculation of load step     19
+Calculation of load step     20
+Calculation of load step     21
+Calculation of load step     22
+Calculation of load step     23
+Calculation of load step     24
+Calculation of load step     25
+Calculation of load step     26
+Calculation of load step     27
+Calculation of load step     28
+Calculation of load step     29
+Calculation of load step     30
+[ERROR] : (time step:    125)   Particle    475 from element   4316 lies outside the mesh. X, Y =   0.5783E+001   0.2326E+001
