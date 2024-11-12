@@ -5,17 +5,17 @@ Kernel version    : 2022.1.0.10029
 Last update date  : 2023-06-29 15:32:28 +0200 (do, 29 jun 2023)
 Last compiled date: 2023-06-30 09:29:57.817
 
-Project name:  column_collapse_quad_MP_CFL_05
-Reading CPS file:  column_collapse_quad_MP_CFL_05.CPS_053
+Project name:  shallow_fndn_tri_MP_v1_1
+Reading CPS file:  shallow_fndn_tri_MP_v1_1.CPS_007
 Reading... ### Anura3D_2021 ###
 [WARNING] : (time step:      1) Unknown flag in CPS file: $$UPDATE_PERMEABILITY_DARCY_ERGUN
-Reading GOM file (Materials):  column_collapse_quad_MP_CFL_05.GOM
+Reading GOM file (Materials):  shallow_fndn_tri_MP_v1_1.GOM
 Reading... ### Anura3D_2023 ###
-Loading constitutive model... mohr_coulomb
 Loading constitutive model... linear_elasticity
-Reading GOM file (Geometry):  column_collapse_quad_MP_CFL_05.GOM
+Loading constitutive model... mohr_coulomb
+Reading GOM file (Geometry):  shallow_fndn_tri_MP_v1_1.GOM
 Reading... ### Anura3D_2023 ###
   Item  Name of subroutine/function/procedure        Times Time per call Total time (se Percentage
-     1| Main                                    |        1|   0.2620E+000|   0.2620E+000|100.00%
+     1| Main                                    |        1|   0.1884E+001|   0.1884E+001|100.00%
      2| Initialisation                          |        1|   0.0000E+000|   0.0000E+000|  0.00%
 Calculation finished.
