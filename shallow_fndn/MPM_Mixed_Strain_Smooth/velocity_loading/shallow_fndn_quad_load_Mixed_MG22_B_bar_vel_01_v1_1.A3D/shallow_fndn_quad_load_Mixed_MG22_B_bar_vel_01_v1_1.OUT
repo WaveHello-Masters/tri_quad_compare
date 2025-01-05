@@ -1,0 +1,33 @@
+
+Anura3D: Numerical modelling and simulation of large deformationsand soil–water–structure interaction using the material point method (MPM)
+Kernel name       : C:\Geotech_Research\Anura3D_Moore\src\VS\Debug\Anura3D_2023.exe
+Kernel version    : 2022.1.0.10029
+Last update date  : 2023-06-29 15:32:28 +0200 (do, 29 jun 2023)
+Last compiled date: 2023-06-30 09:29:57.817
+
+Project name:  shallow_fndn_quad_load_Mixed_MG22_B_bar_vel_01_v1_1
+Reading CPS file:  shallow_fndn_quad_load_Mixed_MG22_B_bar_vel_01_v1_1.CPS_001
+Reading... ### Anura3D_2023 ###
+Reading GOM file (Materials):  shallow_fndn_quad_load_Mixed_MG22_B_bar_vel_01_v1_1.GOM
+Reading... ### Anura3D_2023 ###
+Loading constitutive model... linear_elasticity
+Loading constitutive model... mohr_coulomb
+Reading GOM file (Geometry):  shallow_fndn_quad_load_Mixed_MG22_B_bar_vel_01_v1_1.GOM
+Reading... ### Anura3D_2023 ###
+Calculation of load step      1
+ MaxWaveSpeed :    0.1925E+003
+ MinTimeStep  :    0.1004E-002
+ TimeIncrement:    0.9840E-003
+Calculation of load step      2
+Calculation of load step      3
+Calculation of load step      4
+Calculation of load step      5
+Calculation of load step      6
+Calculation of load step      7
+Calculation of load step      8
+  Item  Name of subroutine/function/procedure        Times Time per call Total time (se Percentage
+     1| Main                                    |        1|   0.4588E+003|   0.4588E+003|100.00%
+     2| Initialisation                          |        1|   0.0000E+000|   0.0000E+000|  0.00%
+     3| LoadStep                                |        8|   0.5734E+002|   0.4587E+003| 99.97%
+     4| WriteResults                            |        8|   0.3265E+001|   0.2612E+002|  5.69%
+Calculation finished.

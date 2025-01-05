@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gid version="15.0">
+  <pre>
+    <layer_to_use name="Layer0"/>
+    <groups>
+      <group id="1" name="2D Single-point Auto1" color="#ff00ffff" allowed_types="#24" allowed_element_types="#0c"/>
+      <group id="2" name="2D Single-point Auto2" color="#008000ff" allowed_types="#24" allowed_element_types="#0c"/>
+      <group id="3" name="2D Single-point Auto3" color="#ffff00ff" allowed_types="#24" allowed_element_types="#0c"/>
+      <group id="4" name="Solid Fixities Auto1" color="#ffa500ff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="5" name="Solid Fixities Auto2" color="#ffc0cbff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="6" name="Solid Fixities Auto3" color="#cdc0b0ff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="7" name="Material point velocity Auto1" color="#76eec6ff" allowed_types="#24" allowed_element_types="#7fe"/>
+      <group id="8" name="Solid traction Auto1" color="#8a2be2ff" allowed_types="#42" allowed_element_types="#7fe"/>
+      <group id="9" name="Solid traction Auto2" color="#8b2323ff" allowed_types="#42" allowed_element_types="#7fe"/>
+      <group id="10" name="Reaction Forces Auto1" color="#ee6a50ff" allowed_types="#42" allowed_element_types="#7fe"/>
+      <group id="11" name="Compressing mesh Auto1" color="#333333ff" allowed_types="#11" allowed_element_types="#7fe"/>
+      <group id="12" name="Moving mesh Auto1" color="#ff4500ff" allowed_types="#11" allowed_element_types="#7fe"/>
+      <group id="13" name="2D Single-point Auto4" color="#ff00ffff" allowed_types="#24" allowed_element_types="#0c"/>
+      <group id="14" name="2D Single-point Auto5" color="#008000ff" allowed_types="#24" allowed_element_types="#0c"/>
+      <group id="15" name="Solid Fixities Auto4" color="#ffff00ff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="16" name="Solid Fixities Auto5" color="#ffa500ff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="17" name="Solid Fixities Auto6" color="#ffc0cbff" allowed_types="#17" allowed_element_types="#7fe"/>
+      <group id="18" name="Material point velocity Auto2" color="#cdc0b0ff" allowed_types="#24" allowed_element_types="#7fe"/>
+      <group id="22" name="Moving mesh Auto2" color="#ee6a50ff" allowed_types="#11" allowed_element_types="#7fe"/>
+      <group id="23" name="Solid traction Auto3" color="#76eec6ff" allowed_types="#42" allowed_element_types="#7fe"/>
+      <group id="24" name="Solid traction Auto4" color="#8a2be2ff" allowed_types="#42" allowed_element_types="#7fe"/>
+      <group id="25" name="Compressing mesh Auto2" color="#8b2323ff" allowed_types="#11" allowed_element_types="#7fe"/>
+      <group id="26" name="Initial Velocity (on material points) Auto1" color="#333333ff" allowed_types="#24" allowed_element_types="#7fe"/>
+    </groups>
+    <entities_groups>
+      <entities_group name="points">
+        <vector name="entity_ids" length="6" type="integer">1:5 7</vector>
+        <vector name="entity_num_groups" length="6" type="ushort">2 2 4 2 2 4</vector>
+        <vector name="entity_groups" length="16" type="ushort">11 25 11 25 11 12 22 25 12 22 12 22 11 12 22 25</vector>
+      </entities_group>
+      <entities_group name="lines">
+        <vector name="entity_ids" length="10" type="integer">1:7 9:11</vector>
+        <vector name="entity_num_groups" length="10" type="ushort">2x6 1 2x3</vector>
+        <vector name="entity_groups" length="19" type="ushort">4 15 5 17 5 17 6 16 5 17 5 17 10 8 23 5 17 9 24</vector>
+      </entities_group>
+      <entities_group name="surfaces">
+        <vector name="entity_ids" length="2" type="integer">1 2</vector>
+        <vector name="entity_num_groups" length="2" type="ushort">2 6</vector>
+        <vector name="entity_groups" length="8" type="ushort">2 14 1 3 7 13 18 26</vector>
+      </entities_group>
+      <entities_group name="nodes">
+        <vector name="entity_ids" length="112" type="integer">1:3 5 6 10 11 16 17 24 25 34 35 44 45 57 58 72 73 88 90 106 107 127 128 148 149 174 175 197 198 225 226 256 257 284 285 315 316 345 346 381 382 423 424 464 465 510 511 559 560 602:604 607 610 618 624 632 641 644 650 664 676 679 692 706 719 721 738 751:754 757 766 770 773 774 780 788 789 794 802 803 810 815 818 824 828 832 838 841 846 850 855 858 862 866 869 873 874 879 880 884 885 888 889 891:894</vector>
+        <vector name="entity_num_groups" length="112" type="ushort">6 2x10 6 2x40 6 2x17 6 2x7 6 2x32 6</vector>
+        <vector name="entity_groups" length="248" type="ushort">12 22 6 16 5 17 5 17 6 16 6 16 5 17 6 16 5 17 5 17 6 16 5 17 6 16 11 12 22 25 5 17 6 16 6 16 5 17 5 17 6 16 5 17 6 16 6 16 5 17 5 17 6 16 5 17 6 16 6 16 5 17 5 17 6 16 5 17 6 16 5 17 6 16 6 16 5 17 6 16 5 17 5 17 6 16 5 17 6 16 5 17 6 16 6 16 5 17 6 16 5 17 6 16 5 17 5 17 6 16 6 16 11 25 4 15 5 17 4 15 4 15 4 15 4 15 4 15 4 15 4 15 6 16 4 15 4 15 4 15 6 16 4 15 4 15 6 16 4 15 4 15 12 22 5 17 6 16 5 17 4 15 5 17 5 17 5 17 5 17 4 15 11 12 22 25 5 17 5 17 5 17 4 15 5 17 5 17 4 15 5 17 4 15 5 17 5 17 4 15 5 17 4 15 5 17 5 17 4 15 5 17 4 15 5 17 4 15 5 17 5 17 4 15 5 17 4 15 5 17 4 15 5 17 4 15 5 17 4 15 5 17 11 25 4 15 5 17</vector>
+      </entities_group>
+      <entities_group name="elements">
+        <vector name="entity_ids" length="658" type="integer">1:658</vector>
+        <vector name="entity_num_groups" length="658" type="ushort">2x650 6x8</vector>
+        <vector name="entity_groups" length="1348" type="ushort">2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 2 14 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26 1 3 7 13 18 26</vector>
+      </entities_group>
+      <entities_group name="faces">
+        <vector name="entity_ids" length="68" type="integer">2 3 7 12 13 20 21 28 29 36 37 44 45 52 53 60 61 69 70 76 77 80 81 84 85 88 89 92:94 651:658 661:663 668 669 673:677 683 684 687 688 691 692 695 696 699 700 703 704 707 708 711 712 715 716 719 720</vector>
+        <vector name="entity_num_faces" length="68" type="uchar">1x68</vector>
+        <vector name="entity_faces" length="68" type="uchar">2 1x29 2 4 1 2 1 4 1 3 2 2 1x28</vector>
+        <vector name="face_num_groups" length="68" type="ushort">2 1 1 2 1 2 1 2x23 1 2 1 2 1 2 2 1 2x30</vector>
+        <vector name="face_groups" length="128" type="ushort">9 24 10 10 9 24 10 9 24 10 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 10 8 23 10 8 23 10 8 23 8 23 10 8 23 9 24 9 24 9 24 9 24 8 23 8 23 8 23 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24 9 24</vector>
+      </entities_group>
+    </entities_groups>
+  </pre>
+</gid>

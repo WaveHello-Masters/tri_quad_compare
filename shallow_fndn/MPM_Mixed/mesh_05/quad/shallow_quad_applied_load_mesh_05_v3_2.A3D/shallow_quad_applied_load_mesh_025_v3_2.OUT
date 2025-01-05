@@ -1,0 +1,18 @@
+
+Anura3D: Numerical modelling and simulation of large deformationsand soil–water–structure interaction using the material point method (MPM)
+Kernel name       : C:\Geotech_Research\Anura3D_Moore\src\VS\Debug\Anura3D_2023.exe
+Kernel version    : 2022.1.0.10029
+Last update date  : 2023-06-29 15:32:28 +0200 (do, 29 jun 2023)
+Last compiled date: 2023-06-30 09:29:57.817
+
+Project name: shallow_quad_applied_load_mesh_025_v3_2
+Reading CPS file: shallow_quad_applied_load_mesh_025_v3_2.CPS_004
+Reading... ### Anura3D_2021 ###
+[WARNING] : (time step:      1) Unknown flag in CPS file: $$UPDATE_PERMEABILITY_DARCY_ERGUN
+Reading GOM file (Materials): shallow_quad_applied_load_mesh_025_v3_2.GOM
+Reading... ### Anura3D_2023 ###
+Loading constitutive model... linear_elasticity
+Loading constitutive model... mohr_coulomb
+Reading GOM file (Geometry): shallow_quad_applied_load_mesh_025_v3_2.GOM
+Reading... ### Anura3D_2023 ###
+Calculation of load step      4
